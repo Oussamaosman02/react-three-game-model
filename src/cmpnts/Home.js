@@ -20,19 +20,20 @@ export default function Home() {
   `;
   const Seccion = styled.section`
     position: relative;
-    top: 10vh;
-    width: 100vw;
+    width: 90vw;
+    margin: 2vh 0 0vh 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 0;
   `;
   return (
     <div
       style={{
         backgroundColor: "rgba(138, 170, 229, 0.5)",
-        width: "100vw",
-        height: "100vh",
+        maxWidth: "100vw",
+        minHeight: "100vh",
         margin: "0",
         padding: "0",
       }}
